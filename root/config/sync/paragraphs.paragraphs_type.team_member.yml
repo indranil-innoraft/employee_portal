@@ -1,0 +1,10 @@
+uuid: a7e14e2c-8b81-49d0-9e61-2ac18885cab5
+langcode: en
+status: true
+dependencies: {  }
+id: team_member
+label: 'Team Member'
+icon_uuid: null
+icon_default: null
+description: 'Project of the team member.'
+behavior_plugins: {  }

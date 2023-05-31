@@ -1,0 +1,28 @@
+uuid: d86a5454-0647-4b8d-831b-b7ac035f7ce5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.team.field_team_members
+    - node.type.team
+  module:
+    - user
+id: node.team.default
+targetEntityType: node
+bundle: team
+mode: default
+content:
+  field_team_members:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

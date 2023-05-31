@@ -1,0 +1,21 @@
+uuid: 595b10e4-b4ed-4b01-beec-aadfa565e57f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.team_member.field_employee_name
+    - paragraphs.paragraphs_type.team_member
+id: paragraph.team_member.default
+targetEntityType: paragraph
+bundle: team_member
+mode: default
+content:
+  field_employee_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

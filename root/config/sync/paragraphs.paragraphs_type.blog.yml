@@ -1,0 +1,10 @@
+uuid: 0a7c1f1b-16a8-4ed1-b63e-dec6c8788db2
+langcode: en
+status: true
+dependencies: {  }
+id: blog
+label: Blog
+icon_uuid: null
+icon_default: null
+description: 'Blogging structure.'
+behavior_plugins: {  }

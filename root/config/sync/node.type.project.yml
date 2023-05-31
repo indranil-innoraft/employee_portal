@@ -1,0 +1,17 @@
+uuid: d7b5131f-9dbd-49b1-8eb0-7411ce6337b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Project
+type: project
+description: 'Containing information related to a project.'
+help: 'Project-related information.'
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,19 @@
+uuid: 607b0e0d-2cd9-4d23-a063-51570354a934
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.blogs_comment
+    - field.storage.comment.field_email
+id: comment.blogs_comment.field_email
+field_name: field_email
+entity_type: comment
+bundle: blogs_comment
+label: Email
+description: 'The content of this field is kept private and will not be shown publicly.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

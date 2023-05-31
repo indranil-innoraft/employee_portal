@@ -1,0 +1,29 @@
+uuid: ca9a44a0-5bbf-47ab-9b70-fc75c1f6a27a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_members_for_this_proj
+    - node.type.employee
+    - node.type.project
+id: node.project.field_team_members_for_this_proj
+field_name: field_team_members_for_this_proj
+entity_type: node
+bundle: project
+label: 'Team members for this project'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      employee: employee
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

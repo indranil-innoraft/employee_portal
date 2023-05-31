@@ -1,0 +1,19 @@
+uuid: 440c35e7-bfd1-404f-aca3-c71df19c18fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.blogs_comment
+    - field.storage.comment.field_your_name_comment
+id: comment.blogs_comment.field_your_name_comment
+field_name: field_your_name_comment
+entity_type: comment
+bundle: blogs_comment
+label: 'Your name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

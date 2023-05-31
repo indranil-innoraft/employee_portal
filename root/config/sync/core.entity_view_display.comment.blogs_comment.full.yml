@@ -1,0 +1,35 @@
+uuid: be795aba-55c0-4359-85bb-b1b3f813590e
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.blogs_comment
+    - core.entity_view_mode.comment.full
+    - field.field.comment.blogs_comment.comment_body
+    - field.field.comment.blogs_comment.field_email
+    - field.field.comment.blogs_comment.field_homepage_comment
+    - field.field.comment.blogs_comment.field_your_name_comment
+  module:
+    - text
+id: comment.blogs_comment.full
+targetEntityType: comment
+bundle: blogs_comment
+mode: full
+content:
+  comment_body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 250
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_email: true
+  field_homepage_comment: true
+  field_your_name_comment: true

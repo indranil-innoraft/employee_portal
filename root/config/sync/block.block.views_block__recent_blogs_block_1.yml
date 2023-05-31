@@ -1,0 +1,29 @@
+uuid: 02e7e1f6-dd24-441d-8122-4fc4abbabd85
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_blogs
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__recent_blogs_block_1
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:recent_blogs-block_1'
+settings:
+  id: 'views_block:recent_blogs-block_1'
+  label: 'Recent Blogs'
+  label_display: visible
+  provider: views
+  views_label: 'Recent Blogs'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /homepage
