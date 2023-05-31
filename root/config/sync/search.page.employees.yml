@@ -1,0 +1,13 @@
+uuid: c887b76d-9bf7-4424-9714-ded6aa978c4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: employees
+label: employees
+path: employees
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }

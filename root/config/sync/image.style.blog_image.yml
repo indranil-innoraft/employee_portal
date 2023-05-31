@@ -1,0 +1,14 @@
+uuid: a5922d32-8be4-432a-8c42-360964ecd6ce
+langcode: en
+status: true
+dependencies: {  }
+name: blog_image
+label: 'blog image'
+effects:
+  21171a6f-dad3-4b27-b848-b0c4b6ec852d:
+    uuid: 21171a6f-dad3-4b27-b848-b0c4b6ec852d
+    id: image_resize
+    weight: 1
+    data:
+      width: 80
+      height: 80

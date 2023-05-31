@@ -1,0 +1,14 @@
+uuid: c0f59940-5103-4cf5-a123-cae5220e6aa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blogs
+  module:
+    - node
+id: blogger
+label: Blogger
+weight: 5
+is_admin: null
+permissions:
+  - 'create blogs content'

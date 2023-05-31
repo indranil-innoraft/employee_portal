@@ -1,0 +1,21 @@
+uuid: 367de51f-0539-421c-843d-5deb878b99fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_tech_skills
+field_name: field_tech_skills
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

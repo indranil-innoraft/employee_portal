@@ -1,0 +1,30 @@
+uuid: 3133c2a9-2e19-465a-82a9-0f406cdd19cd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2394f46f-b680-4866-9294-07f3330477c5'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: footeralignment
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:2394f46f-b680-4866-9294-07f3330477c5'
+settings:
+  id: 'block_content:2394f46f-b680-4866-9294-07f3330477c5'
+  label: 'Footer Alignment'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '*'

@@ -1,0 +1,79 @@
+uuid: c8508fb0-a660-4b85-9e1c-451f2e070ce0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.project.field_customer_name
+    - field.field.node.project.field_project_name
+    - field.field.node.project.field_project_photo
+    - field.field.node.project.field_start_date
+    - field.field.node.project.field_team_members_for_this_proj
+    - field.field.node.project.field_team_name
+    - node.type.project
+  module:
+    - datetime
+    - image
+    - user
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content:
+  field_customer_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_project_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_project_photo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_start_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_team_members_for_this_proj:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_team_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

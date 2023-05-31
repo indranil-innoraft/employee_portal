@@ -1,0 +1,19 @@
+uuid: ec9171cc-43bd-4227-908c-1447c984781a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.blogs_comment
+    - field.storage.comment.field_homepage_comment
+id: comment.blogs_comment.field_homepage_comment
+field_name: field_homepage_comment
+entity_type: comment
+bundle: blogs_comment
+label: Homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

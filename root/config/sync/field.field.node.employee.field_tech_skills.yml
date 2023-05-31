@@ -1,0 +1,19 @@
+uuid: 269207f3-f587-4710-a3f8-527b39b4098c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tech_skills
+    - node.type.employee
+id: node.employee.field_tech_skills
+field_name: field_tech_skills
+entity_type: node
+bundle: employee
+label: 'Tech Skills'
+description: 'What you know better.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

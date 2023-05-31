@@ -1,0 +1,19 @@
+uuid: 6097b074-50af-4892-a8f9-860dfea36b2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee
+    - node.type.project
+    - taxonomy.vocabulary.skill
+  module:
+    - node
+    - taxonomy
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'create employee content'
+  - 'create project content'
+  - 'create terms in skill'
